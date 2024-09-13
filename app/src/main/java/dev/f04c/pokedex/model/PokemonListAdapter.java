@@ -40,6 +40,9 @@ public class PokemonListAdapter extends RecyclerView.Adapter<PokemonListAdapter.
         holder.pokemonDescription.setText(pokemon.getDescription());
         holder.pokemonImage.setImageResource(pokemon.getImageResource());
 
+
+
+        holder.pokemonDescription.setVisibility(View.GONE);
         holder.itemView.setOnClickListener(v -> {
             Intent intent = new Intent(v.getContext(), PokemonDetailActivity.class);
             intent.putExtra("POKEMON_ID", pokemon.getId());
