@@ -1,0 +1,126 @@
+{
+  "pokemon": {
+    "1": {
+      "id": 1,
+      "name": {
+        "english": "Bulbasaur",
+        "japanese": "\u30d5\u30b7\u30ae\u30c0\u30cd",
+        "chinese": "\u5999\u86d9\u79cd\u5b50",
+        "french": "Bulbizarre"
+      },
+      "type": ["Grass", "Poison"],
+      "base": {
+        "HP": 45,
+        "Attack": 49,
+        "Defense": 49,
+        "Sp. Attack": 65,
+        "Sp. Defense": 65,
+        "Speed": 45
+      },
+      "species": "Seed Pokémon",
+      "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.",
+      "evolution": {
+        "next": [
+          ["2", "Level 16"]
+        ]
+      },
+      "profile": {
+        "height": "0.7 m",
+        "weight": "6.9 kg",
+        "egg": ["Monster", "Grass"],
+        "ability": [
+          ["Overgrow", "false"],
+          ["Chlorophyll", "true"]
+        ],
+        "gender": "87.5:12.5"
+      },
+      "image": {
+        "sprite": "/images/sprite/1.png",
+        "thumbnail": "/images/thumbnail/1.png",
+        "hires": "https://f04c.dev/images/pokedex/hires/001.png",
+        "hi_res": "/images/hi_res/1.png"
+      }
+    },
+    "2": {
+      "id": 2,
+      "name": {
+        "english": "Ivysaur",
+        "japanese": "\u30d5\u30b7\u30ae\u30bd\u30a6",
+        "chinese": "\u5999\u86d9\u8349",
+        "french": "Herbizarre"
+      },
+      "type": ["Grass", "Poison"],
+      "base": {
+        "HP": 60,
+        "Attack": 62,
+        "Defense": 63,
+        "Sp. Attack": 80,
+        "Sp. Defense": 80,
+        "Speed": 60
+      },
+      "species": "Seed Pokémon",
+      "description": "There is a bud on this Pokémon’s back. To support its weight, Ivysaur’s legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it’s a sign that the bud will bloom into a large flower soon.",
+      "evolution": {
+        "prev": ["1", "Level 16"],
+        "next": [
+          ["3", "Level 32"]
+        ]
+      },
+      "profile": {
+        "height": "1 m",
+        "weight": "13 kg",
+        "egg": ["Monster", "Grass"],
+        "ability": [
+          ["Overgrow", "false"],
+          ["Chlorophyll", "true"]
+        ],
+        "gender": "87.5:12.5"
+      },
+      "image": {
+        "sprite": "/images/sprite/2.png",
+        "thumbnail": "/images/thumbnail/2.png",
+        "hires": "https://f04c.dev/images/pokedex/hires/002.png",
+        "hi_res": "/images/hi_res/2.png"
+      }
+    },
+    "3": {
+      "id": 3,
+      "name": {
+        "english": "Venusaur",
+        "japanese": "\u30d5\u30b7\u30ae\u30d0\u30ca",
+        "chinese": "\u5999\u86d9\u82b1",
+        "french": "Florizarre"
+      },
+      "type": ["Grass", "Poison"],
+      "base": {
+        "HP": 80,
+        "Attack": 82,
+        "Defense": 83,
+        "Sp. Attack": 100,
+        "Sp. Defense": 100,
+        "Speed": 80
+      },
+      "species": "Seed Pokémon",
+      "description": "There is a large flower on Venusaur’s back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower’s aroma soothes the emotions of people.",
+      "evolution": {
+        "prev": ["2", "Level 32"]
+      },
+      "profile": {
+        "height": "2 m",
+        "weight": "100 kg",
+        "egg": ["Monster", "Grass"],
+        "ability": [
+          ["Overgrow", "false"],
+          ["Chlorophyll", "true"]
+        ],
+        "gender": "87.5:12.5"
+      },
+      "image": {
+        "sprite": "/images/sprite/3.png",
+        "thumbnail": "/images/thumbnail/3.png",
+        "hires": "https://f04c.dev/images/pokedex/hires/003.png",
+        "hi_res": "/images/hi_res/3.png"
+      }
+    }
+  }
+}
