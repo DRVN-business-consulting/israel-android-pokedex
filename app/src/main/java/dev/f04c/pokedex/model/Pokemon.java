@@ -3,11 +3,11 @@ package dev.f04c.pokedex.model;
 public class Pokemon {
     private int id;
     private String name;
-    private String description;
+    private int description;
     private int imageResource;
 
     // Constructor
-    public Pokemon(int id, String name, String description, int imageResource) {
+    public Pokemon(int id, String name, int description, int imageResource) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -20,7 +20,7 @@ public class Pokemon {
     }
 
     // Getter for the Pokémon description
-    public String getDescription() {
+    public int getDescription() {
         return description;
     }
 

@@ -12,9 +12,9 @@ import dev.f04c.pokedex.model.Pokemon;
 public class PokemonDetailActivity extends AppCompatActivity {
 
     private static final Pokemon[] pokemonList = {
-            new Pokemon(1, "Bulbasaur", "Bulbasaur can be seen napping in bright sunlight...", R.drawable.bulbasaur),
-            new Pokemon(2, "Ivysaur", "There is a bud on this Pokémon’s back...", R.drawable.ivysaur),
-            new Pokemon(3, "Venusaur", "There is a large flower on this Pokémon’s back...", R.drawable.venusaur)
+            new Pokemon(1, "Bulbasaur", R.string.bulbasaur_details, R.drawable.bulbasaur),
+            new Pokemon(2, "Ivysaur", R.string.ivysaur_details, R.drawable.ivysaur),
+            new Pokemon(3, "Venusaur", R.string.venusaur_details, R.drawable.venusaur)
     };
 
     @Override

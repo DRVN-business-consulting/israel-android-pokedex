@@ -39,9 +39,9 @@ public class PokemonList extends AppCompatActivity {
     private void populatePokemonList() {
         // Example data
         // Example data with IDs
-        pokemonList.add(new Pokemon(1, "Bulbasaur", "Bulbasaur can be seen napping in bright sunlight...", R.drawable.bulbasaur));
-        pokemonList.add(new Pokemon(2, "Ivysaur", "There is a bud on this Pokémon’s back...", R.drawable.ivysaur));
-        pokemonList.add(new Pokemon(3, "Venusaur", "There is a large flower on this Pokémon’s back...", R.drawable.venusaur));
+        pokemonList.add(new Pokemon(1, "Bulbasaur", R.string.bulbasaur_details, R.drawable.bulbasaur));
+        pokemonList.add(new Pokemon(2, "Ivysaur", R.string.ivysaur_details, R.drawable.ivysaur));
+        pokemonList.add(new Pokemon(3, "Venusaur", R.string.venusaur_details, R.drawable.venusaur));
 
         // Notify the adapter that the data has changed
         adapter.notifyDataSetChanged();
